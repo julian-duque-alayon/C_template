@@ -1,4 +1,3 @@
-```
 # 🧩 C Template (CMake + VS Code)
 
 ![C](https://img.shields.io/badge/language-C-blue)
@@ -11,8 +10,6 @@ Plantilla minimalista y profesional para proyectos en **C** usando CMake, GDB y 
 Configurada para compilar y depurar desde VS Code en Linux/WSL.  
 (La estructura y flujo encajan con la documentación oficial de VS Code para C/C++ en Linux.)
 
----
-
 ## ✨ Características
 
 - ⚙️ Build con CMake (`Debug` y `Release`)  
@@ -20,7 +17,6 @@ Configurada para compilar y depurar desde VS Code en Linux/WSL.
 - 🧠 Chequeo de fugas con Valgrind  
 - 🧱 Estructura típica `src/` + `include/`  
 - 🚀 Flujo listo para CI/CD o extensiones como Dev Containers
-
 ---
 
 ## 📦 Requisitos
