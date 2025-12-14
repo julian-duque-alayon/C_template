@@ -1,4 +1,4 @@
-# 🧩 C Template (CMake + VS Code)
+# C Template (CMake + VS Code)
 
 ![C](https://img.shields.io/badge/language-C-blue)
 ![CMake](https://img.shields.io/badge/build-CMake-brightgreen)
@@ -19,7 +19,7 @@ Configurada para compilar y depurar desde VS Code en Linux/WSL.
 - 🚀 Flujo listo para CI/CD o extensiones como Dev Containers
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 ### En Ubuntu / WSL
 ```bash
@@ -33,7 +33,7 @@ sudo apt update && sudo apt install build-essential gdb cmake valgrind
 
 ---
 
-## 📁 Estructura
+## Estructura
 
 ```
 .
@@ -47,7 +47,7 @@ sudo apt update && sudo apt install build-essential gdb cmake valgrind
 
 ---
 
-## 🚀 Compilar y ejecutar (terminal)
+## Compilar y ejecutar (terminal)
 
 ### Release
 ```bash
@@ -65,7 +65,7 @@ cmake --build build
 
 ---
 
-## 🐞 Debug (VS Code)
+## Debug (VS Code)
 
 1. Abre la carpeta del proyecto (`code .`)  
 2. `Ctrl+Shift+P` → **CMake: Configure**  
@@ -74,7 +74,7 @@ cmake --build build
 
 ---
 
-## 🧪 Valgrind (memory leaks)
+## Valgrind (memory leaks)
 
 ```bash
 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./build/app
@@ -82,7 +82,7 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./build/app
 
 ---
 
-## 🧱 Crear un proyecto desde la plantilla
+## Crear un proyecto desde la plantilla
 
 Opción rápida (clonar y “desvincular”):
 
@@ -97,7 +97,7 @@ git init
 
 ---
 
-## 🧩 Personalización
+## Personalización
 
 | Archivo | Qué editar |
 |---------|------------|
@@ -107,7 +107,7 @@ git init
 
 ---
 
-## 📚 Referencias rápidas
+## Referencias rápidas
 
 - [CMake Tutorial oficial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)  
 - [VS Code C/C++ docs](https://code.visualstudio.com/docs/languages/cpp)  
