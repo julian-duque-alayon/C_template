@@ -12,11 +12,11 @@ Configurada para compilar y depurar desde VS Code en Linux/WSL.
 
 ## ✨ Características
 
-- ⚙️ Build con CMake (`Debug` y `Release`)  
-- 🐞 Debug con GDB (F5 en VS Code)  
-- 🧠 Chequeo de fugas con Valgrind  
-- 🧱 Estructura típica `src/` + `include/`  
-- 🚀 Flujo listo para CI/CD o extensiones como Dev Containers
+- Build con CMake (`Debug` y `Release`)  
+- Debug con GDB (F5 en VS Code)  
+- Chequeo de fugas con Valgrind  
+- Estructura típica `src/` + `include/`  
+- Flujo listo para CI/CD o extensiones como Dev Containers
 ---
 
 ## Requisitos
