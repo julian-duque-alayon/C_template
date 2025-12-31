@@ -38,9 +38,10 @@ sudo apt update && sudo apt install build-essential gdb cmake valgrind
 ```
 .
 ├── .vscode/          # Tasks / Launch / Settings
-├── include/          # Headers (.h)
-├── src/              # Sources (.c)
-├── CMakeLists.txt    # Configuración de CMake
+├──Project_name/
+│   ├── include/          # Headers (.h)
+│   ├── src/              # Sources (.c)
+│   └── CMakeLists.txt    # Configuración de CMake
 ├── .gitignore        # Ignora build/ y otros artefactos
 └── README.md         # Este archivo
 ```
