@@ -1,16 +1,10 @@
-cat > .vscode/settings.json << 'EOF'
 {
-  "C_Cpp.default.cppStandard": "c17",
-  "C_Cpp.default.cStandard": "c17",
-  "C_Cpp.formatting": "clangFormat",
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "files.associations": {
+        "CMakeLists.txt": "cmake"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
+    "cmake.exportCompileCommands": true,
+    "cmake.configureOnOpen": false,
     "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
-  "files.exclude": {
-    "build/": true,
-    "**/.cmake": true
-  }
+    "files.trimTrailingWhitespace": true
 }
-EOF
